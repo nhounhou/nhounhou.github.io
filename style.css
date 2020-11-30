@@ -1,0 +1,37 @@
+h1 {
+    background-color: #696969;
+    text-align: center;
+    color: white;
+}
+
+img{
+float: left;
+margin-right: 10px;
+clear:both;
+}
+p {
+margin-top: 0px;
+margin-left: 0px;
+overflow:auto;
+display:block;
+width: 400px;
+float: left;
+text-align:justify;
+}
+
+a:link {
+color: red;
+}
+
+h2 {
+margin-top: 10px;
+}
+
+section{
+float: left;
+}
+
+.ContactBio{
+float: right;
+margin-right: 20px;
+}

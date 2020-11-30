@@ -1,14 +1,9 @@
-<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>1.2.9 Exercise</title>
-
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
@@ -16,26 +11,33 @@
     <h1>Student Bio</h1>
   </header>
 
-  <div class="container">
+  <div>
 
-    <section id="main-bio">
+    <section>
 
       <h2>Michel Nhouyvanisvong</h2>
-      <img src="http://placehold.it/200x200" alt="Your Image" id="bio-image">
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
 
+      <img src="headshot.jpg" alt="michel Nhouyvanisvong">
+      <p>I was born in <strong><a href="https://en.wikipedia.org/wiki/Australia">Australia</a></strong>, my parents are from 
+      <strong><a href="https://en.wikipedia.org/wiki/Laos">Laos</a></strong>. When I was 4, we had to fly away
+      and we arrived in France. Where I was raised for the next 34 years. I got my
+      Associate degree in Computer Science and work as an Analyst-Programmer for 9 years.
+      I was programming in Cobol. I moved to North Carolina 11 years ago, and didn't do any programming
+      related work for the next 8 years. I only got back at programming since 2017.
+      My hobby are my families, I'm married and have 3 children. I also play 
+      <a href="https://www.youtube.com/watch?v=1sPOZlTdB7g" target="_blank">Badminton</a> but since
+      the pandemic start I didn't had a chance to play.
+      <br>
+      Use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
     </section>
 
-    <section id="contact-info">
-
+    <section class="ContactBio">
       <h2>Contact Info</h2>
-
       <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Email:</strong> <a href="mailto:mnhounhou@gmail.com">mnhounhou@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/nhounhou" target="_blank">Me</a></li>
         <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
       </ul>
-
     </section>
 
   </div>
